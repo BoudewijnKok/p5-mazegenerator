@@ -37,7 +37,7 @@ function Cell(i,j){
     stroke(255);
     noFill();
     rect(x,y,w,w);
-    console.log("new cell  col: ".i."row: ".j);
+    console.log("new cell  col: "+i+"row: "+j);
 
   }
 }
